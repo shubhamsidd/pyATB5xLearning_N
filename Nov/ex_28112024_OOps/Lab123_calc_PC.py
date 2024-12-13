@@ -13,7 +13,7 @@ class Calc:
         return self.a - self.b
 
     def mul(self):
-        return self.a * self.b
+        return se   lf.a * self.b
 
     def div(self):
         return self.a / self.b
