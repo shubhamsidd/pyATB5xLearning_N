@@ -1,16 +1,18 @@
 import pytest
-import  allure
+import allure
 
-@allure.title("Verify that create booking, with valid data is working")
-@allure.description("This Testcase check for the positive create booking")
-@pytest.mark.postive
-def test_create_booking_positive():
-    print("test1")
+@allure.title("Verify that create booking, with valid data is wrking")
+@allure.description("This TestCase check for the positive create booking")
+@pytest.mark.positive
+
+def test_create_booking():
+    print("Testcase1")
     assert 1-1 == 2
 
 @allure.title("Verify that create booking, with invalid data is working")
 @allure.description("This Testcase check for the negative  create booking")
-@pytest.mark.regression
+
+@pytest.mark.negative
 def test_create_booking_negative_1():
     print("test2")
     assert 1 + 1 == 2
